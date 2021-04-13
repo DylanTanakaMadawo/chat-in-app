@@ -11,6 +11,8 @@ function App() {
       projectID='d7aab84e-9c73-40bb-9e07-9baeda703058'  
       userName={localStorage.getItem('username')}
       userSecret={localStorage.getItem('password')}
+      // userName='dendrixx'
+      // userSecret='verngar10'
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps}/>}
     />
   );
